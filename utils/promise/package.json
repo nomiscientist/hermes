@@ -5,7 +5,7 @@
     "promise": "8.3.0"
   },
   "scripts": {
-    "start": "yarn run rollup --config rollup.config.js index.js"
+    "start": "node init && yarn run rollup --config rollup.config.js index.js"
   },
   "devDependencies": {
     "rollup": "~2.27.0"

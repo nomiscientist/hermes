@@ -26,8 +26,8 @@
     "prettier-plugin-hermes-parser": "*"
   },
   "scripts": {
-    "build": "./scripts/build.sh",
-    "build-prettier": "./scripts/build-prettier.sh",
+    "build": "node init && ./scripts/build.sh",
+    "build-prettier": "node init && ./scripts/build-prettier.sh",
     "lint": "eslint .",
     "flow": "flow",
     "format": "./node_modules/prettier/bin/prettier.cjs --config ./.prettierrc.json --write \"**/*.js\"",
