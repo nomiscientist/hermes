@@ -30,7 +30,6 @@ android/intltest/java/com/facebook/hermes/test/assets/**
 
 # VS Code and Visual Studio
 .vs
-.vscode
 
 .git/
 .idea/
@@ -38,3 +37,5 @@ cmake-build*/
 
 # clangd cache
 .cache/
+config.bat
+node_modules

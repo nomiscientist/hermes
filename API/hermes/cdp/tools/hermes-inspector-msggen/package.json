@@ -17,7 +17,7 @@
   },
   "scripts": {
     "flow": "flow",
-    "build": "babel src --out-dir bin --source-maps",
+    "build": "node init && babel src --out-dir bin --source-maps",
     "watch": "babel src --out-dir bin --source-maps --watch",
     "test": "jest"
   },
